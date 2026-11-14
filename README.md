@@ -71,7 +71,7 @@ In a multithreaded environment, multiple process threads run asynchronously and 
         │        Critical Section (Guarded by bank_mutex)       │
         │                                                       │
         │  1. Check: Request <= Need ? (Exceed max claim?)      │
-        │  2. Check: Request <= Available ? (Wait if scarce)   │
+        │  2. Check: Request <= Available ? (Wait if scarce)    │
         │  3. Tentative Allocation:                             │
         │       Available  -= Request                           │
         │       Allocation += Request                           │
