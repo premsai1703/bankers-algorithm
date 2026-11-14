@@ -1,0 +1,9 @@
+# Compiled binaries
+bankers
+bankers.exe
+*.o
+*.obj
+
+# Temporary files
+report_source.md
+*.log
